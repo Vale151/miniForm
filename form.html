@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form2</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <h1>Bienvenid@ a Magic</h1>
+    </header>
+    <div class="main">
+        <div class="form">
+            <form action="" method="POST">
+                <h2>Completá el formulario, es rápido!</h2>
+                <div>
+                    <label for="fullname">Nombre completo</label> <br>
+                    <input type="text" name="fullname" id="fullname" placeholder="Inresá tu nombre"  class="border espaciado-inputs">
+                </div>
+                <div>
+                    <label for="email">Email</label><br>
+                    <input type="email" name="email" id="email" placeholder="Ingresá tu mail"  class="border espaciado-inputs">
+                </div><br>
+    
+                <div>
+                    <label for="description">¿Cuáles son tus series y peliculas favoritas?</label><br>
+                    <textarea rows="4" class="espaciado-inputs" ></textarea>
+                </div> <br>
+    
+    
+                <div>
+                    <div class="espaciado-label"> 
+                        <label>¿Qué tipo de articulos queres buscar?</label>
+                    </div>
+                    <input type="checkbox" value="Anime" name="productCategories" id="categoryAnime">
+                    <label for="categoryHome" >Anime</label><br>
+    
+                    <input type="checkbox" value="terror" name="productCategories" id="categoryTerror">
+                    <label for="categoryTerror">Terror</label><br>
+            
+                    <input type="checkbox" value="Comics" name="productCategories" id="categoryComics" checked>
+                    <label for="categoryComics">Comics</label>   <br>
+    
+                </div> <br>
+    
+                <div>¿Cuál es tu actividad en la página </div>
+                <div>
+                    <label for="buyer">Comprar</label>
+                    <input type="radio" name="userActivity" value="buyer"> </div>
+                <div>
+                    <label for="seller">Vender</label>
+                    <input type="radio" name="userActivity" value="seller">
+                </div> <br>
+    
+    
+                <label for="" class="border">¿Qué tipo de usuario sos?</label> <br>
+                <select name="userType" id="">
+                    <option value="">Seleccioná una opción</option>
+                    <option value="1">Magic level 1</option>
+                    <option value="2">Magic level 2</option>
+                    <option value="3" selected>Magic Expert ✨ </option>
+                </select> <br> <br>
+
+                <div>
+                    <button class="button btn-reset border" type="reset">Empezar de nuevo</button>
+                    <button class="button btn-submit border" type="submit">Registrarme</button>
+                    
+                </div>
+    
+                
+            </form>
+        </div>
+       
+    </div>
+</body>
+
+</html>
